@@ -7,15 +7,12 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="font-sans bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-500">
-      <Navbar />
-      <Hero />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
+    <div style={{ textAlign: "center", padding: "50px" }}>
+      <h1>Hello, this is Mahesh’s Portfolio 🚀</h1>
     </div>
   );
 }
 
 export default App;
+
+
