@@ -1,6 +1,6 @@
-
 // src/components/Footer.jsx
 import React from "react";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -13,14 +13,14 @@ const Footer = () => {
         </p>
 
         {/* Social Links */}
-        <div className="flex space-x-6 mt-4 md:mt-0">
+        <div className="flex space-x-6 mt-4 md:mt-0 text-lg">
           <a 
             href="https://github.com/9908mahesh" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-white transition-colors"
           >
-            GitHub
+            <FaGithub />
           </a>
           <a 
             href="https://www.linkedin.com/in/mahesh-v-a79b74374/" 
@@ -28,13 +28,13 @@ const Footer = () => {
             rel="noopener noreferrer" 
             className="hover:text-white transition-colors"
           >
-            LinkedIn
+            <FaLinkedin />
           </a>
           <a 
             href="mailto:maheshvasimalla333@gmail.com" 
             className="hover:text-white transition-colors"
           >
-            Email
+            <FaEnvelope />
           </a>
         </div>
       </div>
